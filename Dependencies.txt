@@ -1,0 +1,6 @@
+pywin32
+flask
+werkzeug
+requests
+cryptography
+pycryptodome
