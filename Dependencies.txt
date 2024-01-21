@@ -3,4 +3,5 @@ flask
 werkzeug
 requests
 cryptography
-pycryptodome
+pycryptodomex
+pyasn1
