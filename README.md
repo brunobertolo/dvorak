@@ -10,16 +10,16 @@ Memorising passwords is undoubtedly a challenging task for humans. Consequently,
 
 Within this repository, you will find an article focusing on **Dvorak: Browser Credential Dumping Malware**, along with the complete code used to craft the malware. A supplementary video is also included, providing a concise summary and consolidation of the practical work conducted. The following list outlines the available file tree in the repository.
 
-- Dvorak_A_Browser_Credential_Dumping_Malware.pdf
 - Malware
     - Decrypt.py
     - Main.py
     - Server.py
     - Requirements.txt
+- Dvorak_A_Browser_Credential_Dumping_Malware.pdf
 - Pratical_Video_Demonstration.mp4
 
 ## Pratical Video Demonstration (YouTube Embedded)
-[![Watch the Video](https://img.youtube.com/vi/xsUgN8ZaIgA/0.jpg)](https://www.youtube.com/watch?v=xsUgN8ZaIgA)
+[![Watch the Video](https://img.youtube.com/vi/AryjmUzTUf8/0.jpg)](https://www.youtube.com/watch?v=AryjmUzTUf8)
 
 ## Authors
 
