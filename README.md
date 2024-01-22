@@ -4,22 +4,18 @@ Dvorak represents a sophisticated browser credential dumping malware designed to
 
 ## Abstract
 
-- [ ] Write the abstract
-- [ ] Upload the video and the article
-- [ ] Change the YouTube link
-- [ ] Change the directory tree
+Memorising passwords is undoubtedly a challenging task for humans. Consequently, the use of password managers, especially browser-based ones, has seen a noticeable increase in recent years. With that in mind, this paper aims to clarify and conduct an empirical analysis of the security features of password managers in Google Chrome, Microsoft Edge, Opera GX, Mozilla Firefox, and Brave. To corroborate the obtained results, we developed a malware capable of gathering the necessary files to decrypt passwords stored by the browsers and read them in plain text. The results indicate that it is possible to retrieve all the passwords stored in the mentioned browsers in plaintext. In this paper, readers can delve into the details of both the results and the discussion of the security analysis conducted, as well as the processes developed to create the malware. Additionally, relevant open challenges, future work, and conclusions will be presented.
 
 ## Contents
 
-Within this repository, you will find an article focusing on **Dvorak: Browser Credential Dumping Malware**, along with the complete code used to craft the malware. Additionally, there is a directory (`Credentials`) containing samples of gathered passwords for illustrative purposes. A supplementary video is also included, providing a concise summary and consolidation of the practical work conducted. The following list outlines the available file tree in the repository.
+Within this repository, you will find an article focusing on **Dvorak: Browser Credential Dumping Malware**, along with the complete code used to craft the malware. A supplementary video is also included, providing a concise summary and consolidation of the practical work conducted. The following list outlines the available file tree in the repository.
 
-- Dvorak_Unveiling_a_Browser_Credential_Dumping_Malware.pdf
-- Malware_Code
+- Dvorak_A_Browser_Credential_Dumping_Malware.pdf
+- Malware
     - Decrypt.py
     - Main.py
     - Server.py
-    - Dependencies.txt
-    - Credentials
+    - Requirements.txt
 - Pratical_Video_Demonstration.mp4
 
 ## Pratical Video Demonstration (YouTube Embedded)
