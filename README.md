@@ -20,9 +20,6 @@ Within this repository, you will find an article focusing on **Dvorak: Browser C
 - Dvorak_A_Browser_Credential_Dumping_Malware.pdf
 - Pratical_Video_Demonstration.mp4
 
-## Pratical Video Demonstration (YouTube Embedded)
-[![Watch the Video](https://img.youtube.com/vi/AryjmUzTUf8/0.jpg)](https://www.youtube.com/watch?v=AryjmUzTUf8)
-
 ## Authors
 
 The following authors contributed equally to the work.
