@@ -20,7 +20,7 @@ Within this repository, you will find an article focusing on **Dvorak: Browser C
 - Dvorak_A_Browser_Credential_Dumping_Malware.pdf
 - Pratical_Video_Demonstration.mp4
 
-**Note: For the scripts to work there is a need to create a directory "Credentials" in the same directory as "Malware", and a directory for each of the browsers inside the "Credentials" directory. The directories for each of the browsers must be named: edge, chrome, firefox, operagx and brave. The execution of the Main.py script will create zipped credentials inside the directory "Credentials". The user must manually put the zipped files inside the respective browser directories created.**
+**Note:** _For the scripts to work there is a need to create a directory "Credentials" in the same directory as "Malware", and a directory for each of the browsers inside the "Credentials" directory. The directories for each of the browsers must be named: edge, chrome, firefox, operagx and brave. The execution of the Main.py script will create zipped credentials inside the directory "Credentials". The user must manually put the zipped files inside the respective browser directories created._
 
 ## Authors
 
