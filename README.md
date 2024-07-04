@@ -1,4 +1,4 @@
-# Dvorak
+# Dvorak - A Browser Credential Dumper
 
 Dvorak represents a sophisticated browser credential dumping malware designed to extract local password files from five prominent browsers: Google Chrome, Brave, Firefox, Edge, and Opera GX. Notably, the malware not only gathers these files but also possesses the capability to decrypt them. As of now, Dvorak exclusively decrypts files on Windows systems, while it adeptly collects data from both Windows and Linux platforms. In future endeavors, the focus will shift towards extending the capabilities of Dvorak to include the decryption of files on Linux systems.
 
